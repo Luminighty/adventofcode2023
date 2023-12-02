@@ -2,7 +2,7 @@
 pub const CONFIG: (&'static str, fn(), fn()) = ("Advent of Code", run_all, || {});
 
 mod p01;
-// mod p02;
+mod p02;
 // mod p03;
 // mod p04;
 // mod p05;
@@ -43,7 +43,7 @@ impl Advent {
 		let (title, solve_a, solve_b) = match self {
 			Advent::AdventOfCode => CONFIG,
 			Advent::Day1 => p01::CONFIG,
-			// Advent::Day2 => p02::CONFIG,
+			Advent::Day2 => p02::CONFIG,
 			// Advent::Day3 => p03::CONFIG,
 			// Advent::Day4 => p04::CONFIG,
 			// Advent::Day5 => p05::CONFIG,
