@@ -4,7 +4,7 @@ pub const CONFIG: (&'static str, fn(), fn()) = ("Advent of Code", run_all, || {}
 mod p01;
 mod p02;
 mod p03;
-// mod p04;
+mod p04;
 // mod p05;
 // mod p06;
 // mod p07;
@@ -45,7 +45,7 @@ impl Advent {
 			Advent::Day1 => p01::CONFIG,
 			Advent::Day2 => p02::CONFIG,
 			Advent::Day3 => p03::CONFIG,
-			// Advent::Day4 => p04::CONFIG,
+			Advent::Day4 => p04::CONFIG,
 			// Advent::Day5 => p05::CONFIG,
 			// Advent::Day6 => p06::CONFIG,
 			// Advent::Day7 => p07::CONFIG,
